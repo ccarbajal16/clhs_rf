@@ -151,13 +151,6 @@ The script uses separate seeds for different operations:
 
 This ensures reproducible results while maintaining independence between sampling stages.
 
-```r
-# Same seed = identical results
-results1 <- run_sampling_optimization(seed = 123)
-results2 <- run_sampling_optimization(seed = 123)
-# results1 and results2 will be identical
-```
-
 ## 🔍 Algorithm Details
 
 ### Simulated Annealing Process
