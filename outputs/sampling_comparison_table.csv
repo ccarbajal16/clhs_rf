@@ -1,0 +1,3 @@
+"Method","MSE","Samples","Improvement"
+"cLHS",0.0038,100,0
+"RF Optimized",0.002,100,46.59
