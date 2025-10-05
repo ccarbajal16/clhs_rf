@@ -80,7 +80,7 @@ results <- run_sampling_optimization(
   n_iterations = 1000,          # Optimization iterations
   output_dir = "outputs/",      # Output directory
   seed = 42,                    # Random seed for reproducibility
-  target_var = NULL,            # Specific target variable (optional)
+  target_var = NULL,            # Specific target variable
   export_results = TRUE         # Export CSV and plots
 )
 ```
@@ -201,8 +201,9 @@ This project is open-source and available for educational and research purposes.
 ## 📚 References
 
 ### Key Papers
+- Wadoux, A. M. J. C., Brus, D. J., & Heuvelink, G. B. M. (2019). Sampling design optimization for soil mapping with random forest. *Geoderma*, 355, Article 113913. https://doi.org/10.1016/j.geoderma.2019.113913
 - Minasny, B., & McBratney, A. B. (2006). A conditioned Latin hypercube method for sampling in the presence of ancillary information. *Computers & Geosciences*, 32(9), 1378-1388.
-- Breiman, L. (2001). Random forests. *Machine learning*, 45(1), 5-32.
+- Breiman, L. (2001). Random forests. *Machine Learning*, 45(1), 5-32.
 - Kirkpatrick, S., Gelatt, C. D., & Vecchi, M. P. (1983). Optimization by simulated annealing. *Science*, 220(4598), 671-680.
 
 ### R Packages
